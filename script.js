@@ -4,7 +4,7 @@ function clr(){
 function add(val){
 
     var x = document.getElementById("disp").value;
-    if(x.length <= 15){
+    if(x.length <= 14){
     document.getElementById("disp").value=x+val;
     }
     else{
