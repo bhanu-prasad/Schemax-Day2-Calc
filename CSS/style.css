@@ -12,12 +12,18 @@
     flex-direction: column;
 }
 input{
-    background: rgba(255, 255, 255, 0.486);
+    background: rgba(255, 255, 255, 0.356);
 }
 .heading{
     margin-bottom: 90px;
     font-size: 40px;
     font-weight: bolder;
+}
+@media screen and (max-width:350px) {
+    .heading{
+        font-size: 30px;
+        text-align: center;
+    }
 }
 .banner{
     display: flex;
